@@ -61,7 +61,7 @@ function App() {
           <tbody>
           {
             tableData.map((row,index) => <tr key={index}>
-              {row.map(col => <td key={col.id}>* </td>)}
+                {row.map(col => <td key={col.id}>* </td>)}
             </tr>)}
           </tbody>
         </table>
